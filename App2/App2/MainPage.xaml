@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.MainPage" BackgroundColor="#354242" Padding="50,100,50,20">
+
+    <Grid RowSpacing="10" ColumnSpacing="10" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Label x:Name="phoneNumber"  Grid.Row="0" Grid.ColumnSpan="3" FontSize="40" HorizontalOptions="Center" TextColor="AntiqueWhite"></Label>
+        
+                
+        <BoxView Grid.Row="1" />
+        <Button Grid.Row="1" Grid.Column="0" CornerRadius="30" FontSize="30" TextColor="#28282c" BackgroundColor="#fff" Text="1" Clicked="Button_Clicked" /> 
+        
+        <BoxView Grid.Row="1" Grid.Column="1"/>
+        <Button Grid.Row="1"  Grid.Column="1" CornerRadius="30" FontSize="30" TextColor="#28282c" BackgroundColor="#fff" Text="2" Clicked="Button_Clicked" />
+                
+        <BoxView Grid.Row="1" Grid.Column="2"/>
+        <Button Grid.Row="1"  Grid.Column="2" CornerRadius="30" FontSize="30" TextColor="#28282c" BackgroundColor="#fff" Text="3" Clicked="Button_Clicked" />
+
+                
+                
+                
+        <BoxView Grid.Row="2" />
+        <Button Grid.Row="2"  
+                CornerRadius="30"
+                FontSize="30"
+                TextColor="#28282c"
+                BackgroundColor="#fff"
+                Text="4" Clicked="Button_Clicked" />
+
+        <BoxView Grid.Row="2" Grid.Column="1"/>
+        <Button Grid.Row="2"  Grid.Column="1"
+                CornerRadius="30"
+                FontSize="30"
+                TextColor="#28282c"
+                BackgroundColor="#fff"
+                Text="5" Clicked="Button_Clicked" />
+        <BoxView Grid.Row="2" Grid.Column="2"/>
+        <Button Grid.Row="2"  Grid.Column="2"
+                CornerRadius="30"
+                FontSize="30"
+                TextColor="#28282c"
+                BackgroundColor="#fff"
+                Text="6" Clicked="Button_Clicked" />
+
+
+
+
+
+        <BoxView Grid.Row="3" />
+        <Button Grid.Row="3"  
+                CornerRadius="30"
+                FontSize="30"
+                TextColor="#28282c"
+                BackgroundColor="#fff"
+                Text="7" Clicked="Button_Clicked" />
+
+        <BoxView Grid.Row="3" Grid.Column="1"/>
+        <Button Grid.Row="3"  Grid.Column="1"
+                CornerRadius="30"
+                FontSize="30"
+                TextColor="#28282c"
+                BackgroundColor="#fff"
+                Text="8" Clicked="Button_Clicked" />
+                
+        <BoxView Grid.Row="3" Grid.Column="2"/>
+        <Button Grid.Row="3"  Grid.Column="2"
+                CornerRadius="30"
+                FontSize="30"
+                TextColor="#28282c"
+                BackgroundColor="#fff"
+                Text="9" Clicked="Button_Clicked" />
+
+
+        <BoxView Grid.Row="4" Grid.Column="1"/>
+        <Button Grid.Row="4"  Grid.Column="1"
+                CornerRadius="30"
+                FontSize="30"
+                TextColor="#28282c"
+                BackgroundColor="#fff"
+                Text="0" Clicked="Button_Clicked" />
+
+        
+        
+        
+        <BoxView Grid.Row ="5" 
+                 Grid.ColumnSpan="3"/>
+        <Button Grid.Row="5"
+                Grid.Column="0"
+                BackgroundColor="#96ca2d"
+                Margin="10"
+                CornerRadius="50"
+                Grid.ColumnSpan="3"
+                FontSize="25"
+                Text="Dial" Clicked="Button_Clicked_1" />
+        
+        
+        
+    </Grid>
+
+</ContentPage>
